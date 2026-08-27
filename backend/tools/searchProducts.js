@@ -94,10 +94,10 @@ const searchLiveProductsDeclaration = {
   name: "searchLiveProducts",
   description: "Search for live products based on user query (extract keywords, price ceiling, brand). Use this for finding/comparing/checking products or prices.",
   parameters: {
-    type: "OBJECT",
+    type: "object",
     properties: {
       query: {
-        type: "STRING",
+        type: "string",
         description: "The extracted product search query, including keywords, price limits, and brand."
       }
     },

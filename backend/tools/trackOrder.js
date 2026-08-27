@@ -12,10 +12,10 @@ const trackOrderDeclaration = {
   name: "trackOrder",
   description: "Track an order using its order ID. Call this only when the user gives or clearly references an order ID.",
   parameters: {
-    type: "OBJECT",
+    type: "object",
     properties: {
       orderId: {
-        type: "STRING",
+        type: "string",
         description: "The order ID provided by the user."
       }
     },
