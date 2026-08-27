@@ -1,0 +1,26 @@
+{
+  "1234": {
+    "status": "Shipped",
+    "eta": "2026-08-29",
+    "items": ["Puma Running Shoes Size 10"],
+    "lastUpdate": "2026-08-27T10:00:00Z"
+  },
+  "5678": {
+    "status": "Processing",
+    "eta": "2026-08-30",
+    "items": ["Wireless Earbuds"],
+    "lastUpdate": "2026-08-27T12:30:00Z"
+  },
+  "9101": {
+    "status": "Out for Delivery",
+    "eta": "2026-08-27",
+    "items": ["Red Kurti Size M"],
+    "lastUpdate": "2026-08-27T08:15:00Z"
+  },
+  "1121": {
+    "status": "Delivered",
+    "eta": "2026-08-25",
+    "items": ["Yoga Mat"],
+    "lastUpdate": "2026-08-25T14:45:00Z"
+  }
+}

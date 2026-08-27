@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Shopping Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Shopping Assistant</h2>
+      <p>Ask about products, orders, or support.</p>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <!-- Messages will appear here -->
+      <div class="message bot-message">
+        <div class="message-content">Hi! I'm your shopping assistant. How can I help you today?</div>
+      </div>
+    </div>
+    <div class="chat-input-container">
+      <input type="text" id="chat-input" placeholder="Type your message..." autocomplete="off" />
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

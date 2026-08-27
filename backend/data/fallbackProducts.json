@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Puma Men's Flyer Runner Sneaker",
+    "price": "₹ 2,499",
+    "source": "Amazon",
+    "link": "https://amazon.in/puma-flyer-runner"
+  },
+  {
+    "name": "boAt Airdopes 141 Wireless Earbuds",
+    "price": "₹ 1,299",
+    "source": "Flipkart",
+    "link": "https://flipkart.com/boat-airdopes-141"
+  },
+  {
+    "name": "Biba Women's Red Cotton Kurti",
+    "price": "₹ 1,199",
+    "source": "Myntra",
+    "link": "https://myntra.com/biba-red-kurti"
+  },
+  {
+    "name": "Sony WH-1000XM5 Noise Cancelling Headphones",
+    "price": "₹ 29,990",
+    "source": "Amazon",
+    "link": "https://amazon.in/sony-wh-1000xm5"
+  },
+  {
+    "name": "Nike Revolution 6 Running Shoes",
+    "price": "₹ 3,695",
+    "source": "Ajio",
+    "link": "https://ajio.com/nike-revolution-6"
+  }
+]
