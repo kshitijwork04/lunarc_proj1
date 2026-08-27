@@ -1,6 +1,6 @@
 # AI Shopping Assistant Chatbot
 
-A full-stack AI-powered e-commerce shopping assistant chatbot built with Node.js, Express, vanilla HTML/CSS/JS, and the Google Gemini API. Features live product search via Serper.dev, order tracking, and an automated FAQ.
+A full-stack AI-powered e-commerce shopping assistant chatbot built with Node.js, Express, vanilla HTML/CSS/JS, and the Groq API (OpenAI-compatible chat completions with function calling). Features live product search via Serper.dev, order tracking, and an automated FAQ.
 
 ## Features
 - **Live Product Search**: Extracts product details from natural language and searches live using Serper.dev.
@@ -19,7 +19,7 @@ A full-stack AI-powered e-commerce shopping assistant chatbot built with Node.js
 
 2. **Configure Environment Variables**
    - Copy `.env.example` to `.env`.
-   - Obtain a Google Gemini API Key from [Google AI Studio](https://aistudio.google.com/).
+   - Obtain a Groq API Key from [Groq](https://console.groq.com/keys).
    - Obtain a Serper API Key from [Serper.dev](https://serper.dev/).
    - Add the keys to the `.env` file.
 
@@ -33,5 +33,5 @@ A full-stack AI-powered e-commerce shopping assistant chatbot built with Node.js
    Open your browser and navigate to `http://localhost:3000`.
 
 ## Directory Structure
-- `/backend`: Contains the Express server, Gemini integration, and tools logic.
+- `/backend`: Contains the Express server, Groq integration, and tools logic.
 - `/frontend`: Contains the vanilla HTML, CSS, and JS UI.
